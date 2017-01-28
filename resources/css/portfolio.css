@@ -40,7 +40,7 @@ h3{
 	display:none;
 }
 
-.hire-button{
+.cta-button{
 	color:#ecf0f1;
 	background:#e74c3c;
 	border: solid 1px #ecf0f1;
@@ -50,7 +50,7 @@ h3{
 
 }
 
-.hire-button:hover{
+.cta-button:hover,.cta-button:active{
 	background:#c0392b;
 	padding:10px;
 	border-radius:5px;
@@ -58,6 +58,13 @@ h3{
 	margin-top:40px;
 	color:white;
 	text-decoration: none;
+}
+
+
+
+.cta-button:focus{
+	text-decoration:none;
+	color:white;
 }
 
 .header-scroll-down{
@@ -128,7 +135,7 @@ h3{
 	max-height: 100px;*/
 }
 
-.my-work .hire-button{
+.my-work .cta-button{
 	margin-bottom:100px;
 }
 
@@ -293,9 +300,6 @@ background-color: #e74c3c;
 	color:#fff;
 }
 
-.navbar a:hover{
-	background-color: #fff;
-}
 
 
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
@@ -309,9 +313,16 @@ background-color: #e74c3c;
 }
 
 
-.contact-p{
+.contact-p-about{
 	text-align: justify;
 	padding: 20px 40px 20px 10px;
+	/**margin:0 5% 0 35%;**/
+}
+
+.contact-p-contact{
+	text-align: justify;
+	padding: 20px 40px 20px 10px;
+	/**margin:0 35% 0 5%;**/
 }
 
 
@@ -347,4 +358,12 @@ background-color: #e74c3c;
 
 h4{
 	color:white;
+}
+
+
+.img-me{
+	max-width: 10%;
+	max-height: auto;
+	margin: 0 auto;
+
 }
