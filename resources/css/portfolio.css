@@ -5,6 +5,9 @@ body{
 
 header{
 	background:
+		-webkit-linear-gradient(left, rgba(0,4,40,0.5) , rgba(0,78,146,0.4)),
+		url(../img/header.jpg);
+	background:
 		linear-gradient(to right, rgba(0,4,40,0.5) , rgba(0,78,146,0.4)),
 		url(../img/header.jpg);
 	background-size:cover;
@@ -46,6 +49,7 @@ h3{
 	border: solid 1px #ecf0f1;
 	padding:10px;
 	border-radius:5px;
+	-webkit-transition: all 0.5s;
 	transition: all 0.5s;
 
 }
@@ -144,6 +148,7 @@ h3{
 	border-radius:5px;
 	display:inline-block;
 	overflow:hidden;
+	-webkit-transition: 0.3s;
 	transition:0.3s;
 }
 #proj-1:hover{
@@ -213,6 +218,7 @@ hr{
 	padding:10px 20px;
 	color:#fff;
 	text-decoration: none;
+	-webkit-transition: all 0.3s;
 	transition: all 0.3s;
 }
 
@@ -240,6 +246,7 @@ hr{
 #square{
 	display:inline-block;
 	padding:20px;
+	-webkit-transition: all, 0.5s;
 	transition: all, 0.5s;
 }
 
@@ -348,11 +355,14 @@ background-color: #e74c3c;
 }
 
 .proj-img{
+	-webkit-transform:scale(1.02);
 	transform:scale(1.02);
+	-webkit-transition: all, 0.3s;
 	transition: all, 0.3s;
 }
 
 .proj-img:hover{
+	-webkit-transform:scale(1.15);
 	transform:scale(1.15);
 }
 
@@ -367,3 +377,5 @@ h4{
 	margin: 0 auto;
 
 }
+
+
