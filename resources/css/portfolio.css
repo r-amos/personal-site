@@ -1,5 +1,6 @@
-body{
+html,body{
 	font-family: 'Lato';
+	overflow-x: hidden; 
 
 }
 
@@ -13,10 +14,13 @@ header{
 	background-size:cover;
 	height:100vh;
 	background-attachment: fixed;
+	top: 0;
+	left:0
+	background-position: 50% 50%;
 }
 
 .name{
-	padding-top:25%;
+	padding-top:30vh;
 	text-align:center;
 	color:white;
 }
