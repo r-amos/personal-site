@@ -83,6 +83,7 @@ h4{
 .cta-button:focus{
 	text-decoration:none;
 	color:white;
+	vertical-align: bottom;
 }
 
 .header-scroll-down{
@@ -135,8 +136,6 @@ h4{
 .col-lg-12{
 	text-align: center;
 }
-
-
 .my-skills{
 	background-color:#2c3e50;
 
@@ -276,6 +275,7 @@ hr{
 	color:#fff;
 	padding-top: 20px;
 	padding-bottom: 30px;
+	height:10%;
 }
 
 .prev{
@@ -395,7 +395,7 @@ h4{
 
 
 .img-me{
-	width:50%;
+	width:60%;
 	height:auto;
 	margin: 0 auto;
 	border: 2px solid white;
